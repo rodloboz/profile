@@ -1,0 +1,133 @@
+.SearchForm {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -moz-box-shadow:    0px 2px 3px rgba(0,0,0,.4);
+    -webkit-box-shadow: 0px 2px 3px rgba(0,0,0,.4);
+    box-shadow:         0px 2px 3px rgba(0,0,0,.4);
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #fff;
+    width: 750px;
+    margin: 0 auto;
+}
+
+.SearchForm form {
+    display: table;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.SearchForm-wrapper {
+    display: table;
+    table-layout: fixed;
+    float: none;
+    width: 100%;
+    padding-left: 0;
+    position: relative;
+    padding-right: 0;
+}
+
+.SearchForm-row {
+    display: table-row;
+    width: 100%;
+}
+
+.SearchForm-location {
+    position: initial;
+    width: 43%;
+    padding: 15px 16px 8px !important;
+    display: table-cell;
+    float: none;
+    display: inline-block;
+}
+
+.SearchForm-activity {
+    width: 37%;
+    padding: 15px 16px 8px !important;
+    display: table-cell;
+    float: none;
+    text-align: left;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #ccc;
+    display: inline-block;
+}
+
+.SearchForm-submit {
+    width: 20%;
+    vertical-align: middle;
+    float: right;
+    padding: 23px 16px 8px !important;
+    padding-bottom: 16px !important;
+    display: inline-block;
+}
+
+.SearchForm-submit-text {
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    text-overflow: ellipsis;
+}
+
+.SearchForm-label {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: -0.5px;
+    white-space: nowrap;
+    display: block;
+    line-height: normal;
+    color: #545454;
+}
+
+.LocationInput {
+    font-size: 19px !important;
+    letter-spacing: -0.5px;
+    line-height: 22px !important;
+    border-style: hidden;
+    display:block;
+    width: 100%;
+    padding: 8px 0 !important;
+    cursor: text;
+    color: #484848;
+}
+
+.LocationInput:focus {
+    outline: none !important;
+    background: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: 0px 1px 0px #ff7e82 !important;
+}
+
+.ActivityInput {
+    font-size: 19px !important;
+    letter-spacing: -0.5px;
+    line-height: 22px !important;
+    border-style: hidden;
+    display:block;
+    width: 100%;
+    padding: 8px 0 !important;
+    cursor: text;
+}
+
+.ActivityInput:focus {
+    outline: none !important;
+    background: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    color: #484848;
+    box-shadow: 0px 1px 0px #ff7e82 !important;
+}
+
+.DropDownWrapper {
+    padding-right: 0;
+    left: 0;
+    right: 0;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 3000;
+    padding-right: 2px;
+    padding-left: 0;
+}

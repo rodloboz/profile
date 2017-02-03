@@ -4,6 +4,7 @@
 @import url("components/card.css");
 @import url("components/button.css");
 @import url("components/icons.css");
+@import url("components/searchform.css");
 
 body {
   margin: 0;
@@ -42,4 +43,8 @@ h2 {
 .features p {
     font-size: 15px;
     font-weight: lighter;
+}
+
+.icons {
+  width: 70px;
 }

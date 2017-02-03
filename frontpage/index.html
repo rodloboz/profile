@@ -22,7 +22,36 @@
       <div class="banner-content">
         <h1>Experience life.</h1>
         <p>Discover unique experiences in more than 190 countries.</p>
-        <a href="#" class="button-primary">See it in action</a>
+          <div class="SearchForm">
+            <form>
+              <div class="SearchForm-wrapper">
+                <div class="SearchForm-row">
+                  <div class="SearchForm-location">
+                    <label class="SearchForm-label text-left">
+                      <span>Where?</span>
+                    </label>
+                    <div>
+                      <input id="geo-search" class="LocationInput input-large" name="location" type="text" placeholder="Destination, City, Address">
+                      <div class="DropDownWrapper"></div>
+                    </div>
+                  </div>
+                  <div class="SearchForm-activity">
+                    <label class="SearchForm-label">
+                      <span>What?</span>
+                    </label>
+                    <div>
+                      <input class="ActivityInput input-large" name="activity" type="text" placeholder="Skydiving, Climbing, Surfing">
+                    </div>
+                  </div>
+                  <div class="SearchForm-submit">
+                    <button type="submit" class="btn btn-large btn-primary button-red">
+                      <span class="SearchForm-submit-text">Search</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
       </div>
      </div>
 
@@ -153,5 +182,7 @@
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
   </body>
 </html>
