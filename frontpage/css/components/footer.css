@@ -1,0 +1,37 @@
+/* Footer design */
+footer {
+    padding: 15px 0;
+    text-align: center;
+    margin: 0;
+}
+
+footer span.copyright {
+    text-transform: none;
+    font-weight: lighter;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    line-height: 35px;
+    outline: 0;
+    color: #222;
+    background-color: transparent;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    color: #FF474B;
+}
