@@ -1,0 +1,2 @@
+# profile
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a52a16a823524ef387704357eae099df)](https://www.codacy.com/app/rodloboz/profile?utm_source=github.com&utm_medium=referral&utm_content=rodloboz/profile&utm_campaign=badger)
